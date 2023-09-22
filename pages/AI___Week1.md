@@ -7,6 +7,11 @@
 		- Human Agent:
 			- Environment: The Physical World
 			- Sensors: Eyes, Ears, Skin, Taste buds, etc.
+			- Effectors: Hands, Fingers, Arms, Elbows, voice, etc.
+		- Self Driving Car:
+		- Environment: Roads
+		- Sensors: GPS, Cameras, Microphone, Touch sensors, LIDAR
+		- Effectors: Wheels
 	- Rational Agents:
 		- Acting logically given the sensory information you are equipped with.
 		- Not necessarily perfect.
