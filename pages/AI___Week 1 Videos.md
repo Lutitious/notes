@@ -36,5 +36,12 @@
 		- `s0,a1,s1,a2,s2,a3,s3...`
 		- `s` represents a state and `a` represents an action
 		- Difference in states may not only be in results of our agent such as in a dynamic environment
-		- ![image.png](../assets/image_1695412414886_0.png)
+		- Here is an example of a run that is more complex with multiple paths:
+		  ![More Complex Run](../assets/image_1695412414886_0.png)
+		- Simple agents cant typically process more advanced situations. You need to add consequences of actions and goals towards actions.
+		- Here is an example of what a more complex agent might look like:
+		  ![Complex Agent](../assets/image_1695413005428_0.png)
+		- Goals may conflict and there may be different ways of achieving a goal. Utility will be a qualitative way of measuring how "good" any given option would be leading to a utility based agent
+		- It is not always guaranteed the event will occur as we expect so we often use expected utility which is a measure of the utility * how likely the event is to happen written as $$E[U((s1)]$$
 		-
+-
