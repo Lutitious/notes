@@ -1,0 +1,2 @@
+- [[AI]]
+	- [[AI/Week 1 Videos]]
