@@ -1,0 +1,12 @@
+- Exam - 80%
+- Coursework -20%
+-
+- Coursework:
+	- Python 1 excercise
+	- Posted On Keats
+- LGTs:
+	- Wednesdays at 11:00-13:00
+	- Come after watching videos/reading slides
+	- Do questions before sessions
+- SGTs:
+	- Write Code for coursework
