@@ -1,5 +1,7 @@
 - Agents:
 	- Proactive, Reactive, Social, Autonomous
+	- Think of as the software behind a robot
+	- May or may not do what you want it do, objects with attitude
 	- Intelligent Agents:
 		- Environment, Sensors, Effectors
 	- Rational Agents:
