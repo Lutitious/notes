@@ -32,5 +32,4 @@
 		- Dynamic Environments: Other Processes change the environment in ways beyond the control of the agent
 		- Discrete Environments: Finite Number of actions and precepts
 		- Continuous Environments: Infinite Number of actions and precepts
-		-
 	-
