@@ -32,4 +32,9 @@
 		- Dynamic Environments: Other Processes change the environment in ways beyond the control of the agent
 		- Discrete Environments: Finite Number of actions and precepts
 		- Continuous Environments: Infinite Number of actions and precepts
-	-
+	- Run of an agent in an environment:
+		- `s0,a1,s1,a2,s2,a3,s3...`
+		- `s` represents a state and `a` represents an action
+		- Difference in states may not only be in results of our agent such as in a dynamic environment
+		- ![image.png](../assets/image_1695412414886_0.png)
+		-
