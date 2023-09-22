@@ -13,8 +13,15 @@
 			- Sensors: GPS, Cameras, Microphone, Touch sensors, LIDAR
 			- Effectors: Wheels, Horn, Lights, Windscreen, Washers
 			- Road Laws encoded as flexible rules as they may need to be broken on occasion.
+			- For each decision made you will need to:
+				- Identify all possible alternative options
+				- Compare the options by some metric
+				- Decide on the best option
+				- Execute the option
+				- Do it fast enough to be feasible
 	- Rational Agents:
 		- Acting logically given the sensory information you are equipped with.
+		- Finite resources.
 		- Not necessarily perfect.
 	- Simple Agents:
 		- Given a set of rules and inputs will produce specific outputs
