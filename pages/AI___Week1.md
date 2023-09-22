@@ -4,6 +4,9 @@
 	- May or may not do what you want it do, objects with attitude
 	- Intelligent Agents:
 		- Environment, Sensors, Effectors
+		- Human Agent:
+			- Environment: The Physical World
+			- Sensors: Eyes, Ears, Skin, Taste buds, etc.
 	- Rational Agents:
 		- Acting logically given the sensory information you are equipped with.
 		- Not necessarily perfect.
