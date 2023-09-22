@@ -9,9 +9,10 @@
 			- Sensors: Eyes, Ears, Skin, Taste buds, etc.
 			- Effectors: Hands, Fingers, Arms, Elbows, voice, etc.
 		- Self Driving Car:
-		- Environment: Roads
-		- Sensors: GPS, Cameras, Microphone, Touch sensors, LIDAR
-		- Effectors: Wheels
+			- Environment: Roads
+			- Sensors: GPS, Cameras, Microphone, Touch sensors, LIDAR
+			- Effectors: Wheels, Horn, Lights, Windscreen, Washers
+			- Road Laws encoded as flexible rules as they may need to be broken on occasion.
 	- Rational Agents:
 		- Acting logically given the sensory information you are equipped with.
 		- Not necessarily perfect.
