@@ -23,5 +23,6 @@
 		- Acting logically given the sensory information you are equipped with.
 		- Finite resources.
 		- Not necessarily perfect.
+		- Takes actions based on sensors using effectors which effects the environment.
 	- Simple Agents:
 		- Given a set of rules and inputs will produce specific outputs
