@@ -414,4 +414,4 @@
  :file/name-format :triple-lowbar
  :journal/page-title-format "dd-MM-yyyy"
  :feature/enable-timetracking? false
- :editor/preferred-pasting-file? false}
+ :editor/preferred-pasting-file? true}
