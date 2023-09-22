@@ -1,0 +1,9 @@
+- Agents:
+	- Proactive, Reactive, Social, Autonomous
+	- Intelligent Agents:
+		- Environment, Sensors, Effectors
+	- Rational Agents:
+		- Acting logically given the sensory information you are equipped with.
+		- Not necessarily perfect.
+	- Simple Agents:
+		- Given a set of rules and inputs will produce specific outputs

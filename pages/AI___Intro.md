@@ -14,8 +14,3 @@
 	- Implement these techniques in computer software
 -
 - Both a theory and practical course
--
-- Agents:
-	- Proactive, Reactive, Social, Autonomous
-	- Intelligent Agents:
-		- Environment, Sensors, Effectors
