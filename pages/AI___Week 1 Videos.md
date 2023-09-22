@@ -25,4 +25,10 @@
 		- Not necessarily perfect.
 		- Takes actions based on sensors using effectors which effects the environment.
 	- Simple Agents:
-		- Given a set of rules and inputs will produce specific outputs
+		- Given a set of rules and inputs will produce specific outputs.
+		- Rakes information from the environment and uses if else rules to execute actions based on the information.
+	- Environments:
+		- Static Environments:
+			- Remains unchanged except by the agent's own actions
+		- Dynamic Environments:
+			- Other Processes change the environment in ways beyonf the control of the agent
