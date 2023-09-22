@@ -43,5 +43,3 @@
 		  ![Complex Agent](../assets/image_1695413005428_0.png)
 		- Goals may conflict and there may be different ways of achieving a goal. Utility will be a qualitative way of measuring how "good" any given option would be leading to a utility based agent
 		- It is not always guaranteed the event will occur as we expect so we often use expected utility which is a measure of the utility * how likely the event is to happen written as $$E[U((s1)]$$
-		-
--
