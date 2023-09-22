@@ -28,7 +28,8 @@
 		- Given a set of rules and inputs will produce specific outputs.
 		- Rakes information from the environment and uses if else rules to execute actions based on the information.
 	- Environments:
-		- Static Environments:
-			- Remains unchanged except by the agent's own actions
-		- Dynamic Environments:
-			- Other Processes change the environment in ways beyonf the control of the agent
+		- Static Environments: Remains unchanged except by the agent's own actions
+		- Dynamic Environments: Other Processes change the environment in ways beyond the control of the agent
+		- Discrete Environments: Finite Number of actions and percepts
+		- Continuous Environments: In
+	-
