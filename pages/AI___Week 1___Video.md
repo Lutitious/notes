@@ -1,5 +1,5 @@
 - Agents:
-	- Proactive, Reactive, Social, Autonomous
+	- Proactive, Reactive, Autonomous, Social
 	- Think of as the software behind a robot
 	- May or may not do what you want it do, objects with attitude
 	- Intelligent Agents:
