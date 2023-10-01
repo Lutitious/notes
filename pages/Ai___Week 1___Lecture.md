@@ -1,1 +1,1 @@
--
+- Intro lecture not much discussed
