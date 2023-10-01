@@ -1,0 +1,60 @@
+- Credit value: 15
+- Assessment: Written examination (2 hours)
+- KEATS: slides, exercises and general material, news and discussion forum
+	- Recordings and slides available before lectures:
+		- 2020/2021 recordings (with some updates)
+	- Watch for corrections (new versions with errata lists)
+	- Student questions and discussion forum
+-
+- Assessment: Final written exam worth 100%
+- 10 Weekly Quizzes
+-
+- A mix of asynchronous (pre-recorded) and synchronous (live) teaching.
+- Weekly recordings, readings, quizzes (asynchronous)
+- Fri 11:00-13:00: synchronous face-to-face large group tutorial with me
+- Weekly face-to-face small group tutorials with TAs
+- Expectations:
+	- Watch the weekly recordings before the LGT (and the SGTs)
+	- LGT:
+		- not a lecture (no new material) not an SGT (not an exercise session),
+		  rather an opportunity to dive deeper in the weekly topics, look at them
+		  sideways, discuss and ask questions (and occasionally some exam
+		  questions and exercises)
+	- SGTs: week after the LGT, weekly quizzes and exercises
+-
+- Basic terminology and concepts:
+	- Goals of cryptography, terminology and notation, players
+	- Basic cryptographic functions
+- Number theory:
+	- Congruent modulo n, equivalent class modulo n
+	- Integer modulo n (Zn)
+	- Multiplicative inverse
+	- Relatively prime
+	- Euler’s theorem
+	- Fermat’s little theorem
+	- EEA (Extended Euclidean Algorithm)
+	- CRT (Chinese Remainder Theorem)
+- Ciphers:
+	- Block ciphers (substitution, transposition, product)
+	- Stream ciphers
+	- Modes of operation (ECB, CBC, CFB, OFB)
+	- Cryptosystems:
+	- Block cipher: DES (Data Encryption Standard), AES (Advanced Encryption Standard)
+	- Public-key: RSA (Rivest-Shamir-Adleman), El Gamal
+	- One-way hash function: SHA and MD5 (Message Digest 5)
+	- Password hashing and salting
+- Key-establishment protocols:
+	- Symmetric and asymmetric techniques (Diffie-Hellman, Needham-Schroeder, Otway-Rees)
+	- Public-key encryption
+	- Basic and advanced Kerberos protocols
+- Authentication and identification:
+	- Concepts
+	- Fiat-Shamir and Feige-Fiat-Shamir protocols
+	- Zero-knowledge identification protocol
+- Digital signatures:
+	- Classification
+	- Digital signature schemes: RSA; EI-Gamal; DSA (Digital Signature Algorithm) and
+	- DSS (Digital Signature Standard)
+	- Information Security:
+	- Password systems: number of acceptable passwords for a given password policy, exhaustive search password ageing
+	- Introduction to viruses, secure communication, social engineering (phishing), firewall, buffer overflow, denial of services
