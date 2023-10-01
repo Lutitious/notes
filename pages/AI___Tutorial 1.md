@@ -1,0 +1,15 @@
+- Tutorial 1 #numlist
+	- Robot Vacuum
+		- Uses LIDAR scanners to detect range to walls
+		- Moves in 8 directions always cleaning under it
+		- House
+	- Accessible, Dynamic, Discrete
+	- Drone, operates in the sky, Accessible, Dynamic, Continous
+	-
+		- $$a_{n},a_{n},a_{n},a_{n},a_{e}$$
+		- $$a_{n},a_{e},a_{e},a_{e},a_{n},a_{n},a_{e},a_{e},a_{e},a_{n},a_{n}$$
+		  $$a_{n},a_{e},a_{e},a_{e},a_{n},a_{e},a_{n},a_{e},a_{n},a_{n}$$
+		- No as the wall on 4,0 would stop it reaching there as even if it were to go north first to go around it the agent cannot go south.
+		- -10 and +10 since it can always move off the lose point it cannot go back onto it since it can only go north and east. and the program stops when it reaches the win point.
+		- 6.25%
+	-
