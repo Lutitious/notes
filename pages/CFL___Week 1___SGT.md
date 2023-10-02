@@ -1,0 +1,11 @@
+- the set $$a^0$$ contains the emtpy string
+- The set $$A\{a,b,c,[\  ]\} = B\{a,b,c\}$$
+- There is an infinite amount of basic regex to match only a given string
+- When one regex matches the same strings or language they are considered equivalent
+-
+- An evil regex has the potential to cause catastrophic backtracking
+- Catastrophic backtracking is when there is an exponential number of permutations that can cause dos attacks.
+-
+- Finding a common factor and factorising regex can prove regex is equivalent
+-
+- [] create a range in regex ? means the preceding character can match or be an empty string
