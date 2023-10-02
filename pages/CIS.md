@@ -7,6 +7,7 @@
 	- Student questions and discussion forum
 -
 - Assessment: Final written exam worth 100%
+- All multiple choice
 - 10 Weekly Quizzes
 -
 - A mix of asynchronous (pre-recorded) and synchronous (live) teaching.
