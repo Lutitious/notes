@@ -11,5 +11,5 @@
 		  $$a_{n},a_{e},a_{e},a_{e},a_{n},a_{e},a_{n},a_{e},a_{n},a_{n}$$
 		- No as the wall on 4,0 would stop it reaching there as even if it were to go north first to go around it the agent cannot go south.
 		- -10 and +10 since it can always move off the lose point it cannot go back onto it since it can only go north and east. and the program stops when it reaches the win point.
-		- 6.25% $$\sum_{i=0}^{\infty}{0.5^5+i} = \sum_{i=5}^{\infty}{0.5^i}$$
-	-
+		- $$\sum_{i=0}^{\infty}{0.5^{5+i}} = \sum_{i=5}^{\infty}{0.5^i} = \frac{0.5^5}{1-0.5} = 0.125$$ where i is how many times you do $$a_e$$ at (0,2)
+-
