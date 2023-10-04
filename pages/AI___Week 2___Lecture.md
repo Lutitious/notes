@@ -7,4 +7,7 @@
 - $$P(x) = 0.625$$
 - $$P(c_1|x) = \frac{0.75 * 0.5}{0.625}$$
 - $$P(c_1|x) = 0.6$$
--
+- Prove the following are equal:
+- $$P(A|B,C) = P(A|C)$$
+- $$P(A,B|C) = P(A|C)*P(B|C)$$
+- $$\frac{P(A|X)}{P(X)} = \frac{P(A|BX_0)}{P(B,C)} = \frac{P(A|BX_0)}{P(B,C)}$$
