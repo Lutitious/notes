@@ -1,1 +1,10 @@
+- Given 2 containers, $$c_1$$ with $$30x$$ and $$10y$$ and $$c_2$$ with $$20x$$ and $$20y$$ you are asked to randomly choose an item. Given you pick x what is the chance you selected it from $$c_1$$
+- $$P(c_1|x) = \frac{P(x|c_1) * P(c_1)}{P(x)}$$
+- $$P(c_1|x) = \frac{0.75 * 0.5}{P(x)}$$
+- $$P(x) = P(x|c_1) * P(c_1) + P(x|c_2) * P(c_2)$$
+- $$P(x) = 0.75 * 0.5 + 0.5 * 0.5$$
+- $$P(x) = 0.375 + 0.25$$
+- $$P(x) = 0.625$$
+- $$P(c_1|x) = \frac{0.75 * 0.5}{0.625}$$
+- $$P(c_1|x) = 0.6$$
 -
