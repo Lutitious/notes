@@ -1,0 +1,16 @@
+- Lexer seperates out language into keywords and identifiers (series of tokens)
+- Parser takes the list of tokens and forms them into an abstract syntax tree
+- The code generator takes the code from the parser and converts it into machine code or jvm code in our case.
+-
+- Regex rules:
+	- * = 0 or more times
+	- + = 1 or more times
+	- {n} = exactly n times
+	- {n,m} = between n and m times inclusive
+	- [...] = matches any character in the brackets
+	- [\^...] = matches any character not in the brackets
+	- a-z A-Z 0-9 = character ranges
+	- \\d = matches digits  (equivalent to 0-9)
+	- . = matches every character except \\n
+	- (re) = groups regex and remembers the matched text
+	-

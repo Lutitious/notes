@@ -1,0 +1,16 @@
+- Exam: Online (35%)
+- Coursework: 5 stages (65%)
+	- Matcher (5%)
+	- Lexer (10%)
+	- Parser/Interpreter (10%)
+	- JVM compiler (15%)
+	- LLVM compiler (25%)
+-
+- Week 1-5:
+	- Lexing
+	- Parsing
+- Week 5-10:
+	- Interpreters
+	- Compilers
+		- JVM and LLVM
+-
