@@ -13,4 +13,42 @@
 	- \\d = matches digits  (equivalent to 0-9)
 	- . = matches every character except \\n
 	- (re) = groups regex and remembers the matched text
-	-
+-
+- ReDoS: Regex Denial of Service
+- Also known as catastrophic backtracking
+-
+- Basic regex:
+	- nothing: $$0$$
+	- empty string: $$1$$
+	- character: $$c$$
+	- alternative / choice: $$r_1 +r_2$$
+	- sequence: $$r_1 * r_2$$
+	- star(zero or more): $$r^*$$
+- Advanced regex can be simplified to basic regex always
+-
+- Concatenation is done using the @ symbol
+- You can also concatenate 2 languages
+- The $$n_{th}$$ power of a language
+- $$A^0\stackrel{def}{=}\{[\ ]\}$$
+- $$A^{n+1}\stackrel{def}{=}A@A^n$$
+- eg. $$A^4 = A@A@A@A$$, $$A^1 = A$$, $$A^0 = \{[\ ]\}$$
+  id:: 651eafcf-02d7-401c-a516-10daa40efa2b
+-
+- id:: 651ead4d-a48f-436a-b520-3b8fe0414969
+  $$L(0)\stackrel{def}{=}\{\}$$
+- $$L(1)\stackrel{def}{=}\{[\ ]\}$$
+- $$L(c)\stackrel{def}{=}\{[c]\}$$
+- $$L(r_1 + r_2)\stackrel{def}{=}\{{L(r_1)}\cup{L(r_2)}\}$$
+- $$L(r_1 * r_2)\stackrel{def}{=}\{{L(r_1)}@{L(r_2)}\}$$
+- $$L(r^*)\stackrel{def}{=}{\cup}_{0\leq n}L(r)^n = (L(r))\star$$
+-
+- The Kleene star:
+- $$A\star \stackrel{def}{=} {\cup}_{0\leq n}A^n$$
+- This expands to $$A^0 \cup A^1\cup A^2\cup A^3\cup A^4 ...$$
+- Which further expands to $$\{[\ ]\} \cup A\cup A@A\cup A@A@A\cup A@A@A@A ...$$
+-
+- $$A @ \{[\ ]\} = A$$
+- $$A @ \{\} = \{\}$$
+- $$L(r*1) = L(r)$$
+- $$L(r*0)=L(0)$$
+-
