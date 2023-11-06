@@ -1,0 +1,22 @@
+- Can the regex match the empty string:
+	- $$nullable(0)\stackrel{def}{=}false$$
+	- $$nullable(1)\stackrel{def}{=}true$$
+	- $$nullable(c)\stackrel{def}{=}false$$
+	- $$nullable(r_1 +r_2)\stackrel{def}{=}nullable(r_1) \cup nullable(r_2)$$
+	- $$nullable(r_1*r_2)\stackrel{def}{=}nullable(r_1) \cap nullable(r_2)$$
+	- $$nullable(r^*)\stackrel{def}{=}true$$
+- Derivative of regex:
+	- $$der\ c(0)\stackrel{def}{=}0$$
+	- $$der\ c(1)\stackrel{def}{=}0$$
+	- $$der\ c(d)\stackrel{def}{=}$$
+		- if $$c=d$$ then $$1$$
+		- else $$0$$
+	- $$der\ c(r_1 + r_2)\stackrel{def}{=}der\ c(r_!)+der\ c(r_2)$$
+	- $$der\ c(r_1 * r_2)\stackrel{def}{=}$$
+		- if $$nullable(r_!)$$ then $$der \ c(r_1) *r +der\ c(r_2)$$
+		- else $$der\ c(r_1)*r_2$$
+	-
+- $$der\ c(r^*) \stackrel{def}{=}(der\ c(r))r^*$$
+- $$ders[]r \stackrel{def}{=} r$$
+-
+-
