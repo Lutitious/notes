@@ -90,4 +90,3 @@
 - Case n=1: $$der\ c\ r$$
 - Case n=2:$$(der\ c\ r)*r$$
 - Case n (where $$n \geq 1$$): $$(der\ c\ r)*r\{n-1\}$$
--
