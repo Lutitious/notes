@@ -64,5 +64,12 @@
 	- else $$der\ c(r_1)*r_2$$
 -
 - $$der\ c(r^*) \stackrel{def}{=}(der\ c(r)) * r^*$$
+- $$ders\ []\ r \stackrel{def}{=} r$$
+- $$ders\ (c::s)\ r \stackrel{def}{=} ders\ s(der\ c\ (r))$$
 - Derivative Example:
-	- der a ((a * b)+b)^{*}
+	- $$der\ a\ {((a * b)+b)}^{*}⇒ der\ a\ \underline{{((a * b)+b)}^{*}}$$
+	- $$=(der\ a\ \underline{((a * b)+b)}*r)$$
+	- $$=(der\ a\ (\underline{a+b}) + (der\ a\ b)*r)$$
+	- $$=(((der\ a\ (\underline{a}))*b) + (der\ a\ b)*r)$$
+	- $$= ((1*b) + (der\ a\ (\underline{b})))*r$$
+	- $$= ((1*b) + 0)* r$$
