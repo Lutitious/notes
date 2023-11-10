@@ -40,4 +40,29 @@
 		- $$Der\ f\ A= \set{oo,rak}$$
 		- $$Der\ b\ A= \set{ar}$$
 		- $$Der\ a\ A= \set{}$$
+	- We can extend that definition to strings:
+		- Look for all the strings that start with s then remove the first instance of s
+		- $$Ders\ s\ A \stackrel{def}{=}\{s' | s@s' \in A\}$$
 -
+- Brzozowski's Algorithm(whether regex can match the empty string):
+	- $$nullable(0) \stackrel{def}{=} false$$
+	- $$nullable(1) \stackrel{def}{=} true$$
+	- $$nullable(c) \stackrel{def}{=} false$$
+	- id:: 654e6f2b-72d2-45d1-b554-87ece40fd965
+	  $$nullable(r_{1}+r_{2}) \stackrel{def}{=} nullable(r_{1}) \vee nullable(r_{2})$$
+	- $$nullable(r_{1}*r_{2}) \stackrel{def}{=} nullable(r_{1}) \wedge nullable(r_{2})$$
+	- $$nullable(r_{*}) \stackrel{def}{=} true$$
+- If r matches the string c::s then the alogrithm to match just s is der c r
+- $$der\ c(0)\stackrel{def}{=}0$$
+- $$der\ c(1)\stackrel{def}{=}0$$
+- $$der\ c(d)\stackrel{def}{=}$$
+	- if $$c=d$$ then $$1$$
+	- else $$0$$
+- $$der\ c(r_1 + r_2)\stackrel{def}{=}der\ c(r_!)+der\ c(r_2)$$
+- $$der\ c(r_1 * r_2)\stackrel{def}{=}$$
+	- if $$nullable(r_!)$$ then $$der \ c(r_1) *r +der\ c(r_2)$$
+	- else $$der\ c(r_1)*r_2$$
+-
+- $$der\ c(r^*) \stackrel{def}{=}(der\ c(r)) * r^*$$
+- Derivative Example:
+	- der a ((a * b)+b)^{*}
