@@ -81,3 +81,13 @@
 	- Step 3 build derivative of $$c$$ and $$r_3$$: $$r_4 = der\ c\ r_3$$
 	- Step 4 the string is exhausted. Test if r_4 can match the empty string: $$nullable(r_4)$$
 	- Output: true or false
+-
+- For $$r^{n}$$ if $$n = 0$$ then $$nullable = true$$
+- else $$nullable(r^{n}) = nullable(r)$$
+-
+- der for n times:
+- Case n=0: $$der\ c\ 1 = 0$$
+- Case n=1: $$der\ c\ r$$
+- Case n=2:$$(der\ c\ r)*r$$
+- Case n (where $$n \geq 1$$): $$(der\ c\ r)*r\{n-1\}$$
+-
