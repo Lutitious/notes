@@ -1,0 +1,43 @@
+- Two regex are equivalent provided:
+	- $${r}_{1}\equiv{r}_{2}\stackrel{def}{=}L({r}_{1}) = L({r}_{2})$$
+- All of the following are equivalent:
+	- $$(a + b)+ c \equiv a + ( b + c)$$
+	- $$a + a \equiv a$$
+	- $$a + b \equiv b + a$$
+	- $$(a *  b) * c \equiv a * ( b * c)$$
+	- $$c * (a + b) \equiv (c * a) + (c * b)$$
+	- $$1 \equiv 0^{*}$$
+	- $$1^{*} \equiv 1$$
+- The following are not equivalent
+	- $$a * a \not\equiv a$$
+	- $$a + (b *c) \not\equiv (a+b) * (a+c)$$
+	- $$a * 0 \not\equiv a$$
+	- $$a +1 \not\equiv a$$
+	- $$ 0^{*} \not\equiv 0$$
+-
+- Important equivalences for regex matchers:
+	- $$r + 0 \equiv r$$
+	- $$0 +r \equiv r$$
+	- $$r * 1 \equiv r$$
+	- $$1 *r \equiv r$$
+	- $$r * 0 \equiv 0$$
+	- $$0 * r \equiv 0$$
+	- $$r + r \equiv r$$
+- Example simplification 1:
+	- $$((1*b)+0)*r ⇒ ((\underline{1*b})+0)*r$$
+	- $$=(\underline{b+0})*r$$
+	- $$= b * r$$
+- Example simplification 2:
+	- $$((0*b)+0)*r ⇒ ((\underline{0*b})+0)*r$$
+	- $$=(\underline{0+0})*r$$
+	- $$= 0 * r$$
+	- $$= 0$$
+-
+- The semantic derivative of a language:
+	- Basically take the words that begin with the letter c in the set A then remove the first c and the remainders form a new set which is our semantic derivative
+	- $$Der\ c\ A \stackrel{def}{=}\{s|c::s \in A\}$$
+	- For $$ A = \set{foo,bar,frak}$$
+		- $$Der\ f\ A= \set{oo,rak}$$
+		- $$Der\ b\ A= \set{ar}$$
+		- $$Der\ a\ A= \set{}$$
+-
