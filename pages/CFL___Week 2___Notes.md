@@ -73,3 +73,11 @@
 	- $$=(((der\ a\ (\underline{a}))*b) + (der\ a\ b)*r)$$
 	- $$= ((1*b) + (der\ a\ (\underline{b})))*r$$
 	- $$= ((1*b) + 0)* r$$
+- The complete algorithm:
+	- $$matcher\ r\ s \stackrel{def}{=} nullable(ders\ s\ r)$$
+- Does $r_1$ match $abc$
+	- Step 1 build derivative of $$a$$ and $$r_1$$: $$r_2 = der\ a\ r_1$$
+	- Step 2 build derivative of $$b$$ and $$r_2$$: $$r_3 = der\ b\ r_2$$
+	- Step 3 build derivative of $$c$$ and $$r_3$$: $$r_4 = der\ c\ r_3$$
+	- Step 4 the string is exhausted. Test if r_4 can match the empty string: $$nullable(r_4)$$
+	- Output: true or false
