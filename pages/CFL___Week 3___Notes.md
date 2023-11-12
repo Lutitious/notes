@@ -1,0 +1,30 @@
+- Automata:
+- A deterministic finite automaton,DFA, consists of
+	- An alphabet $$\sum$$
+	- A set of states $$Qs$$
+	- One of these is the start state $$Q_0$$
+	- Some states are accepting states $$F$$ and
+	- There is the transition function $$\delta$$
+	- which takes a state as an argument and a character and produces a new state; this function might not be everywhere defined => partial function :$$A(\sum,Qs,Q_0,F,\delta)$$
+- A non-deterministic finite automaton,NFA, consists of
+	- A set of states $$Qs$$
+	- Some of these is the start states $$Qs_0$$
+	- Some states are accepting states $$F$$ and
+	- There is the transition relation $$\rho$$
+- In \epsilon NFAs you have silent transitions to different parts of the tree
+- Combining automata is done by linking the accept point from one automaton to the other automaton using \epsilon transitions
+	- The starting states will be from the first automaton and the accepting states of the second automaton.
+-
+- ![Subset construction](../assets/image_1699823020878_0.png)
+- ![image.png](../assets/image_1699823323318_0.png)
+- ![Subset Construction eNFA](../assets/image_1699823049793_0.png){:height 399, :width 546}
+- ![image.png](../assets/image_1699823524729_0.png)
+- DFA Minimisation #numlist
+	- Take all pairs (q, p) with q \ne p
+	- Mark all pairs that accepting and non-accepting states
+	- For all unmarked pairs (q, p) and all characters c test whether (δ(q, c), δ(p, c)) are marked. If yes in at least one case, then also mark (q, p).
+	- Repeat last step until no change.
+	- All unmarked pairs can be merged.
+- ![image.png](../assets/image_1699823953212_0.png)
+  id:: 65514041-3937-42c7-a742-03ef6d0cbe6e
+-
