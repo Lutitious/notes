@@ -1,0 +1,21 @@
+- While regular expressions are very useful for lexing, there is no regular expression that can recognise the language $a^nb^n$.
+- (((()()))()) vs. (((()()))()))
+- So we cannot find out with regular expressions whether parentheses are matched or unmatched. Also regular expressions are not recursive, e.g. (1 + 2) + 3.
+-
+- Computer languages are often context free. We can use grammars to describe them.
+- A grammar for palindromes over the alphabet {a, b}:
+	- S ::= a · S · a
+	- S ::= b · S · b
+	- S ::= a
+	- S ::= b
+	- S ::= ϵ
+	- Can be compacted like:
+		- S ::= a · S · a | b · S · b | a | b | ϵ
+- Grammar for Arithmetic Expressions:
+	- E ::= 0 | 1 | 2 | ... | 9 | E · + · E | E · − · E | E · ∗ · E | (·E·)
+- A CFG Derivation #numlist
+	- Begin with a string containing only the start symbol, say S
+	- Replace any nonterminal X in the string by the
+	  right-hand side of some production X ::= rhs
+	- Repeat 2 until there are no non terminals left: S → . . . → . . . → . . . → . . .
+-
