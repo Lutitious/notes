@@ -19,13 +19,13 @@
 	- then apply q to the unparsed parts
 	- then combine the results:
 	- ((output1, output2), unparsed part)
-	- {((o1, o2), u2) |
-	  (o1, u1) ∈ p(input)∧
-	  (o2, u2) ∈ q(u1)}
+	- {((o$_1$, o$_2$), u$_2$) |
+	  (o$_1$, u$_1$) ∈ p(input)∧
+	  (o$_2$, u$_2$) ∈ q(u$_1$)}
 - Map-parser (code p.map(f) )
 	- apply p producing a set of pairs
 	- then apply the function f to each first component
-	- {(f(o1), u1) | (o1, u1) ∈ p(input)}
+	- {(f(o$_1$), u$_1$) | (o$_1$, u$_1$) ∈ p(input)}
 - Semantic Actions
 	- Addition
 		- T ∼ + ∼ E ⇒ f ((x, y), z) ⇒ x + z
@@ -33,4 +33,15 @@
 		- F ∼ * ∼ T ⇒ f ((x, y), z) ⇒ x * z
 	- Parenthesis
 		- ( ∼ E ∼ ) ⇒ f ((x, y), z) ⇒ y
+-
+- Aexps
+	- $$eval(n, E) \stackrel{def}{=} n$$
+	- $$eval(a_1 + a_2, E) \stackrel{def}{=} eval(a_1,E) + eval(a_2,E)$$
+	- $$eval(a_1 − a_2, E) \stackrel{def}{=} eval(a_1,E) − eval(a_2,E)$$
+	- $$eval(a_1 * a_2, E) \stackrel{def}{=} eval(a_1,E) * eval(a_2,E)$$
+	- $$eval(x, E) \stackrel{def}{=} E(x)$$
+	- $$eval(a1 = a2, E) \stackrel{def}{=} eval(a1, E) = eval(a2, E)$$
+	- $$eval(a1 ! = a2, E) \stackrel{def}{=} ¬(eval(a1, E) = eval(a2, E))$$
+	- $$eval(a1 < a2, E) \stackrel{def}{=} eval(a1, E) < eval(a2, E)$$
+	- For E(x), Lookup x in E
 -
