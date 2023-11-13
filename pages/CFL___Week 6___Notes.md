@@ -1,0 +1,36 @@
+- Parser Combinators:
+	- list of tokens => set of (parsed input, unparsed input)
+	- come in 4 types:
+		- atomic parsers
+		- sequencing
+		- alternative
+		- semantic action (map-parser)
+-
+- Atomic parsers, for example, number tokens
+	- Num(123) :: rest ⇒ {(Num(123), rest)}
+	- you consume one or more token from the input (stream)
+	- also works for characters and strings
+	- In case you cannot parse anything your return the empty set {} indicating the parser has failed to parse anything.
+- Alternative parser (code p || q)
+	- apply p and also q; then combine the outputs
+	- p(input) ∪ q(input)
+- Sequence parser (code p ∼ q)
+	- apply first p producing a set of pairs
+	- then apply q to the unparsed parts
+	- then combine the results:
+	- ((output1, output2), unparsed part)
+	- {((o1, o2), u2) |
+	  (o1, u1) ∈ p(input)∧
+	  (o2, u2) ∈ q(u1)}
+- Map-parser (code p.map(f) )
+	- apply p producing a set of pairs
+	- then apply the function f to each first component
+	- {(f(o1), u1) | (o1, u1) ∈ p(input)}
+- Semantic Actions
+	- Addition
+		- T ∼ + ∼ E ⇒ f ((x, y), z) ⇒ x + z
+	- Multiplication
+		- F ∼ * ∼ T ⇒ f ((x, y), z) ⇒ x * z
+	- Parenthesis
+		- ( ∼ E ∼ ) ⇒ f ((x, y), z) ⇒ y
+-
