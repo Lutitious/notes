@@ -28,3 +28,14 @@
 - ![image.png](../assets/image_1699823953212_0.png)
   id:: 65514041-3937-42c7-a742-03ef6d0cbe6e
 -
+- ![image.png](../assets/image_1699824685447_0.png)
+- ![image.png](../assets/image_1699824705183_0.png)
+- Arden's Lemma
+	- If $$q=qr + s$$ then $$q = sr^*$$
+- ![image.png](../assets/image_1699824719630_0.png)
+- Since q0 and q1 are accepting we add $Q_0$ and $Q_1$
+-
+- Regular Languages (3)
+	- A language is regular if there exists a regular expression that recognises all its strings, or equivalently
+	- A language is regular if there exists a deterministic finite automaton that recognises all its strings.
+-
