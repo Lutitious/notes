@@ -19,13 +19,13 @@
 	  right-hand side of some production X ::= rhs
 	- Repeat 2 until there are no non terminals left: S → . . . → . . . → . . . → . . .
 -
-- Example Derivation
+- Example Derivation:
 	- S ::= ϵ | a · S · a | b · S · b
 	- S → aSa
 	- → abSba
 	- → abaSaba
 	- → abaaba
-- Example Derivation
+- Example Derivation:
 	- E ::= 0 | 1 | 2 | ... | 9 | E · + · E | E · − · E | E · *· E | (·E·)
 	- E → E * E
 	- E + E * E
@@ -36,3 +36,29 @@
 	- → E + E + E
 	- → E + E * E + E
 	- →+ 1 + 2 * 3 + 4
+- We don't like when there is more than one way to derive a grammar. It should be avoided to use an ambiguous grammar.
+- Instead for arithmetic expressions we use the following grammar:
+	- E ::= T | T · + · E | T · − · E
+	- T ::= F | F · * · T
+	- F ::= 0...9 | (·E·)
+- using this we follow bidmas.
+- For 1+2*3+4 we follow this:
+- ![image.png](../assets/image_1699896999716_0.png)
+- Using priorities will resolve the ambiguity
+-
+- ‘Dangling’ Else
+- Another ambiguous grammar:
+	- E → if E then E | if E then E else E | …
+	- "if a then if x then y else c"
+	- Which if does the else belong to?
+-
+- Chomsky Normal Form:
+	- A grammar for palindromes over the alphabet {a, b}:
+	- S ::= a · S · a | b · S · b | a · a | b · b | a | b
+	- In Chomsky normal form:
+		- S$_a$ := a
+		- S$_b$ := b
+		- S$_1$ :=S$_a$ · S
+		- S$_2$ :=S$_b$ · S
+		- S ::= S$_1$ · S$_a$ | S$_2$ · S$_b$ | S$_a$ · S$_a$ | S$_b$ · S$_b$ | a | b
+-
