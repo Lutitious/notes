@@ -63,3 +63,22 @@
 	  ```
 	- where nx is the index corresponding to the variable x
 -
+- Compilation of ifs:
+	- ![image.png](../assets/image_1699905658741_0.png)
+	- ![image.png](../assets/image_1699905681842_0.png)
+-
+- Conditional Jumps
+	- if_icmpeq label if two ints are equal, then jump
+	- if_icmpne label if two ints aren’t equal, then jump
+	- if_icmpge label if one int is greater or equal then another, then jump
+	- ```jvm
+	  L1:
+	  if_icmpeq L2
+	  iload 1
+	  ldc 1
+	  iadd
+	  if_icmpeq L1
+	  L2:
+	  ```
+	- ![image.png](../assets/image_1699906001902_0.png)
+-
