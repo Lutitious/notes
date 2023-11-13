@@ -415,4 +415,4 @@
  :journal/page-title-format "dd-MM-yyyy"
  :feature/enable-timetracking? false
  :editor/preferred-pasting-file? false
- :ui/show-brackets? false}
+ :ui/show-brackets? true}
