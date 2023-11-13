@@ -12,10 +12,27 @@
 	- Can be compacted like:
 		- S ::= a · S · a | b · S · b | a | b | ϵ
 - Grammar for Arithmetic Expressions:
-	- E ::= 0 | 1 | 2 | ... | 9 | E · + · E | E · − · E | E · ∗ · E | (·E·)
+	- E ::= 0 | 1 | 2 | ... | 9 | E · + · E | E · − · E | E · * · E | (·E·)
 - A CFG Derivation #numlist
 	- Begin with a string containing only the start symbol, say S
 	- Replace any nonterminal X in the string by the
 	  right-hand side of some production X ::= rhs
 	- Repeat 2 until there are no non terminals left: S → . . . → . . . → . . . → . . .
 -
+- Example Derivation
+	- S ::= ϵ | a · S · a | b · S · b
+	- S → aSa
+	- → abSba
+	- → abaSaba
+	- → abaaba
+- Example Derivation
+	- E ::= 0 | 1 | 2 | ... | 9 | E · + · E | E · − · E | E · *· E | (·E·)
+	- E → E * E
+	- E + E * E
+	- → E + E * E + E
+	- →+ 1 + 2 * 3 + 4
+- Alternative Derivation:
+	- E → E + E
+	- → E + E + E
+	- → E + E * E + E
+	- →+ 1 + 2 * 3 + 4
