@@ -67,7 +67,7 @@
 	- ![image.png](../assets/image_1699905658741_0.png)
 	- ![image.png](../assets/image_1699905681842_0.png)
 -
-- Conditional Jumps
+- Conditional Jumps:
 	- if_icmpeq label if two ints are equal, then jump
 	- if_icmpne label if two ints aren’t equal, then jump
 	- if_icmpge label if one int is greater or equal then another, then jump
@@ -81,4 +81,18 @@
 	  L2:
 	  ```
 	- ![image.png](../assets/image_1699906001902_0.png)
+-
+- Compiling Whiles:
+	- ![image.png](../assets/image_1699977127219_0.png)
+	- ![image.png](../assets/image_1699977162350_0.png)
+	- compile(while b do cs, E) $\stackrel{def}{=}$
+	- lwbegin (fresh label)
+	- lwend (fresh label)
+	- (is, E′) = compile(cs1, E)
+	- (lwbegin :
+	- @ compile(b, E, lwend)
+	- @ is
+	- @ goto lwbegin
+	- @ lwend :, E′)
+	- ![image.png](../assets/image_1699977343901_0.png)
 -
