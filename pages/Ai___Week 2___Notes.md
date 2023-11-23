@@ -1,0 +1,41 @@
+- Partial observability can arise for many reasons.
+	- World structure vs. sensor ability.
+	- Sensor noise.
+	- Computational complexity.
+- Partial observability -> uncertainty. This will allow us to derive abstract models.
+-
+- Methods for handling uncertainty
+	- Use probability
+		- Given the available evidence, A25 will get me there on time with probability 0.04
+	- Probabilistic assertions summarize effects of
+		- laziness: failure to enumerate exceptions, qualifications, etc.
+		- ignorance: lack of relevant facts, initial conditions, etc.
+	- Even with probabilistic assumptions there are still issues: Computational complexity, obtaining values, semantics.
+		- We will consider the computational issues in some detail.
+-
+- Subjective or Bayesian probability:
+	- Probabilities relate propositions to one’s own state of knowledge
+	- $P(A_{25}) = 0.04$. Knowing that no traffic issues was reported (say in the morning), makes it more likely
+		- $P(A_{25}$|no reported traffic issues$) = 0.06$
+	- Probabilities of propositions change with new evidence:
+		- $P(A_{25}$|no reported traffic issues, leaving at 5 a.m.$) = 0.15$
+		- $P(A_{25}$|no reported traffic issues, leaving at  9 a.m.$) = 0.03$
+-
+- Suppose I believe the following:
+	- $P(A_{25}$ gets me there on time| . . .$) = 0.04$
+	- $P(A_{90}$ gets me there on time| . . .$) = 0.70$
+	- $P(A_{120}$ gets me there on time| . . .$) = 0.95$
+	- $P(A_{1440}$ gets me there on time| . . .$) = 0.9999$
+- Which action to choose?
+-
+- Depends on our preferences for missing flight vs. airport cuisine, sleeping on a bench, and so on.
+- Utility theory is used to represent and infer preferences
+- Decision theory = utility theory + probability theory
+- We will come back to decision theory in a few weeks
+-
+- Probability basics
+- Begin with a set Ω—the sample space.
+- This is all the possible things that could happen.
+	- 6 possible rolls of a die.
+	- How many if I have two dice?
+- ω P Ω is a sample point, atomic event.
