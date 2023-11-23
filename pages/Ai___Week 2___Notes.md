@@ -39,3 +39,13 @@
 	- 6 possible rolls of a die.
 	- How many if I have two dice?
 - ω P Ω is a sample point, atomic event.
+-
+- A probability space or probability model is a sample space with an assignment P pωq for every ω P Ω such that:
+	- $$0 < p(ω) \leq 1$$
+	- $$\sum_{ω}^{} P(ω) = 1$$
+- For a typical die:
+	- $$P(1) = P(2) = P(3) = P(4) = P(5) = P(6) = \frac{1}{6}$$
+-
+- An event A is any subset of Ω
+	- $$P(A) = \sum_{\{ω \epsilon A\}}^{} P(ω)$$
+-
