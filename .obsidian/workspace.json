@@ -1,0 +1,175 @@
+{
+  "main": {
+    "id": "9acec69de97a6e2f",
+    "type": "split",
+    "children": [
+      {
+        "id": "96386f6896d4ab1b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c7c39ade96a01327",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OME/Week 1/LGT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "651966e4db5c0cd8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5508bf5951483606",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OME/Week 1/LGT.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d1f521d8455bf6c7",
+    "type": "split",
+    "children": [
+      {
+        "id": "086d939e4b5ab643",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0d742b2aaca0be6d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2dc3589821f43659",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "803056c7f7418c96",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4c54dc95c76488da",
+    "type": "split",
+    "children": [
+      {
+        "id": "d751ea394dc569ca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e75df98bc68a959c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "OME/Week 1/LGT.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "28883d527da01bf6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "OME/Week 1/LGT.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ce2f347b3c738635",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7e626875af30c960",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "OME/Week 1/LGT.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "5508bf5951483606",
+  "lastOpenFiles": [
+    "Welcome.md",
+    "OME/Week 1/LGT.md",
+    "OME/Week 1",
+    "Untitled",
+    "OME"
+  ]
+}
