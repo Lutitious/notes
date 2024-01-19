@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OME/Week 1/LGT.md",
+                "file": "COM/Week 1/LGT.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,16 +22,16 @@
         ]
       },
       {
-        "id": "651966e4db5c0cd8",
+        "id": "ee71423fc638485a",
         "type": "tabs",
         "children": [
           {
-            "id": "5508bf5951483606",
+            "id": "f96e3e24b133142b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OME/Week 1/LGT.md",
+                "file": "COM/Week 1/LGT.md",
                 "mode": "preview",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OME/Week 1/LGT.md",
+                "file": "COM/Week 1/LGT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OME/Week 1/LGT.md",
+                "file": "COM/Week 1/LGT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OME/Week 1/LGT.md"
+                "file": "COM/Week 1/LGT.md"
               }
             }
           }
@@ -166,10 +166,16 @@
   },
   "active": "0d742b2aaca0be6d",
   "lastOpenFiles": [
-    "Welcome.md",
+    "COM/Week 1/LGT.md",
+    "ML1/Week 1/LGT.md",
+    "COM/Week 1",
+    "COM",
+    "COM",
     "OME/Week 1/LGT.md",
+    "ML1/Week 1",
+    "ML1",
+    "Welcome.md",
     "OME/Week 1",
-    "Untitled",
     "OME"
   ]
 }
