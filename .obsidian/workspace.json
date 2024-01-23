@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5ff9fc804099de66",
+        "id": "3a38ac162dc0bc27",
         "type": "tabs",
         "children": [
           {
-            "id": "2b15d99fe3a8a8bb",
+            "id": "78bb03dd29f0cd1b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -65,11 +65,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "4c54dc95c76488da",
@@ -146,10 +147,14 @@
       "graph:Open graph view": false
     }
   },
-  "active": "2b15d99fe3a8a8bb",
+  "active": "78bb03dd29f0cd1b",
   "lastOpenFiles": [
-    "NSE/Week 1/LGT.md",
+    "Pasted image 20240123140052.png",
+    "2024-01-23.md",
+    "Pasted image 20240123134739.png",
+    "Untitled.canvas",
     "ML1/Week 1/Slides.md",
+    "NSE/Week 1/LGT.md",
     "ML1/Week 1/LGT.md",
     "NSE/Week 1",
     "NSE",
