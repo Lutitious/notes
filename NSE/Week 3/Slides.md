@@ -21,7 +21,6 @@
 - Both operate below the Internet layer as a part of the interface between the Internet and data link layers
 ![[Pasted image 20240206180343.png]]
 ![[Pasted image 20240206180652.png]]![[Pasted image 20240206181146.png]]
-
 #### ARP request message generation
 1. ARP protocol is called by a hardware driver when an IP packet needs to be sent out on the local area network (LAN)
 2. Get IP address of the target
@@ -82,8 +81,8 @@
 	- Acknowledge: server acknowledges the IP and sends other related configuration
 - DHCP request message contains the source MAC address of the network device requiring an IP address
 - In a DHCP starvation attack, an attacker broadcasts large number of  DHCP_REQUEST messages with spoofed source MAC addresses
-- If the legitimate DHCP server in the network starts responding to all these bogus DHCP_REQUEST messages, available IP addresses in the DHCP server scope will be depleted within a very short span of time
-- Once the available number of IP addresses in the DHCP server is depleted, network attackers could set up a bogus DHCP server and respond to new DHCP DISCOVERY message from network DHCP clients
+	- If the legitimate DHCP server in the network starts responding to all these bogus DHCP_REQUEST messages, available IP addresses in the DHCP server scope will be depleted within a very short span of time
+	- Once the available number of IP addresses in the DHCP server is depleted, network attackers could set up a bogus DHCP server and respond to new DHCP DISCOVERY message from network DHCP clients
 - DHCP spoofing attack
 	- The rogue server starts distributing IP addresses and other TCP/IP configuration settings including default gateway and DNS server IP addresses, which can now point to an IP address controlled by the attacker
 	- Facilitates man-in-the-middle attack and sniffing attacks

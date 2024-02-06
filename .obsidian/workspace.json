@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NSE/Week 3/Slides.md",
+                "file": "NSE/Week 4/Slides.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NSE/Week 3/Slides.md",
+                "file": "NSE/Week 4/Slides.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NSE/Week 3/Slides.md",
+                "file": "NSE/Week 4/Slides.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NSE/Week 3/Slides.md"
+                "file": "NSE/Week 4/Slides.md"
               }
             }
           }
@@ -148,19 +148,21 @@
   },
   "active": "0aca6f31a8afb621",
   "lastOpenFiles": [
-    "media/Pasted image 20240206191701.png",
-    "media/Pasted image 20240206191401.png",
-    "NSE/Week 2/Slides.md",
+    "media/Pasted image 20240206201206.png",
+    "media/Pasted image 20240206201016.png",
+    "media/Pasted image 20240206200719.png",
+    "media/Pasted image 20240206200352.png",
+    "media/Pasted image 20240206200144.png",
+    "media/Pasted image 20240206200050.png",
+    "media/Pasted image 20240206194923.png",
+    "media/Pasted image 20240206194549.png",
+    "media/Pasted image 20240206194431.png",
+    "media/Pasted image 20240206194238.png",
+    "media/Pasted image 20240206193958.png",
     "NSE/Week 3/Slides.md",
-    "media/Pasted image 20240206184951.png",
-    "media/Pasted image 20240206184926.png",
-    "media/Pasted image 20240206184651.png",
-    "media/Pasted image 20240206184543.png",
-    "media/Pasted image 20240206184522.png",
-    "media/Pasted image 20240206184324.png",
-    "media/Pasted image 20240206183701.png",
-    "media/Pasted image 20240206183554.png",
-    "media/Pasted image 20240206183324.png",
+    "NSE/Week 4/Slides.md",
+    "NSE/Week 4",
+    "NSE/Week 2/Slides.md",
     "Untitled.canvas",
     "NSE/Week 3",
     "media",
@@ -179,7 +181,6 @@
     "COM/Week 1/LGT.md",
     "ML1/Week 1",
     "ML1",
-    "Welcome.md",
-    "COM/Week 1"
+    "Welcome.md"
   ]
 }
