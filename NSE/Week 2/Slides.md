@@ -110,3 +110,45 @@ files
 	- Filter the packet before buffering the required parts of it
 	- The filter is defined by users (which are network sniffers here)
 	- 100 times faster than the existing packet capture tool at the time
+- A kernel agent that discards unwanted packets as early as possible
+- Two components:
+	- Network tap
+	- Packet filter
+- BPF feeds the packet to each participating process’ filter. This user-defined filter decides whether a packet is to be accepted and how many bytes of each packet should be saved.
+- For each filter that accepts the packet, BPF copies the requested amount of data to the buffer associated with that filter.
+![[Pasted image 20240206172600.png]]
+- Use a directed acyclic control flow graph (CFG)
+- The example shows shows a CFG filter function that accepts all packets with an Internet address foo
+- Right branch if yes to the condition in the oval
+- Left branch if no to the condition in the oval
+![[Pasted image 20240206172855.png]]
+
+#### Types of traffic analysis
+- Protocol analysis: analyse individual protocol inside a packet
+- Packet analysis: analyse protocols of different layers inside a set of packets
+- Flow analysis: analyse a flow composed of multiple packets
+![[Pasted image 20240206173209.png]]
+
+- Why do we need protocol analysis?
+	- To understand the semantics of the information being transmitted
+	- To interpret the information
+- The specification of many protocols is public
+- IETF Request for Comment (RFC) documents
+	- RFC 791 – IP v4
+	- RFC 793 – TCP v4
+	- RCC 2613 –HTTP v.1
+	- List of RFCs https://en.wikipedia.org/wiki/List_of_RFCs
+- Support for public protocols is usually implemented in tools like Wireshark
+	- Wireshark shows headers, flags, content in a more user-friendly and navigable way
+
+- Why do we need packet analysis?
+	- To inspect the protocols within a set of packets transmitted
+	- To identify packets of interest using packet analysis techniques
+- What does packet analysis do?
+	- If you are network professionals
+		- Monitor the health of a network
+	- If you are security professionals
+		- Passive network vulnerability assessment
+	- If you are an attacker
+		- Passive attack tool
+		- Steal information such as passwords
