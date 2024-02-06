@@ -152,3 +152,38 @@ files
 	- If you are an attacker
 		- Passive attack tool
 		- Steal information such as passwords
+- The word packet is misleading
+- Frames are actually captured and analysed
+- Frames are link layer PDU (processing data unit), Internet layer packet is the payload of frames
+![[Pasted image 20240206174021.png]]
+- Pattern matching
+	- Identify packets of interest by matching specific values in the packet capture
+	- E.g., if source IP address = foo
+- Parsing protocol fields
+	- Extract the contents of particular protocol fields
+	- E.g., Wireshark shows the contents of each field in an IP packet
+- Packet filtering
+	- Separate packets based on the values of fields in protocol metadata
+	- E.g., showing ICMP packet only
+
+- Why do we need flow analysis?
+	- Identify patterns (e.g., repeated communications)
+	- Isolate suspicious activity and discard irrelevant data`
+	- Analyse higher-layer protocols (e.g., reconstructing TCP segments and 	get the full picture of the protocol encapsulation in it: HTTP, SSL …)
+	- Extract data (e.g., a binary file to be analysed)
+- What does flow analysis do?
+	- Flow analysis is the practice of examining related groups of packets.
+- Use Wireshark “Follow TCP Stream” feature
+	- Select any packet inside a TCP stream
+	- Choose menu Analyse->Follow->TCP Stream
+	- Wireshark reconstructs the full duplex contents of that stream from beginning to end
+	- Conversations, transactions and file transfers that span multiple packets in a stream can be reconstructed in their entirety
+	- Include only info that is contained within the packet capture
+- Use Wireshark “Follow HTTP/UDP/ Stream” feature
+
+- List conversations and flows
+	- List all conversations and/or flows within a packet capture or only specific flows based on their characteristics
+- Export a flow
+	- Isolate a flow or multiple flows, and store the flow(s) of interest to disk for further analysis
+- File and data carving
+	- Extract files or other data of interest from the reassembled flow
