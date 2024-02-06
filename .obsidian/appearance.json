@@ -1,7 +1,7 @@
 {
   "accentColor": "",
   "cssTheme": "Catppuccin",
-  "interfaceFontFamily": "FreeSans",
-  "textFontFamily": "FreeSans",
-  "monospaceFontFamily": "FreeSans"
+  "interfaceFontFamily": "Arial,FreeSans",
+  "textFontFamily": "Arial,FreeSans",
+  "monospaceFontFamily": "Arial,FreeSans"
 }
